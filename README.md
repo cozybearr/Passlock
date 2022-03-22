@@ -4,6 +4,8 @@
 
 **Update** (22 Mar. 2022): Try creating user interface using *Streamlit*
 
+🔏 A tiny program to encrypt and store password
+
 ## Requirements
 
 There are some general library requirements for the project and some which are specific to individual methods. The general requirements are as follows.
@@ -13,12 +15,9 @@ There are some general library requirements for the project and some which are s
 
 ## Usage
 
-### Bot commands
-
-1. Run `v/album` to display list of song tracks
-2. Run `v/play` + `[name]` to play songs in the album
-3. If cannot find song in **album**, use `v/download` + `[name]` to update new song to the album
-4. `v/pause`, `v/stop`, `v/skip`, `v/leave`, `v/join` are used as usual
+1. Run `manager.py` using command line 
+2. Enter `view` to view password list or `add` to add new account
+3. Password will then be encrypt using **key** and stored in `passwords.txt`
 
 
 ## Information about other files
